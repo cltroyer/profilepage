@@ -45,26 +45,28 @@
 
         <div class="row">
 
-          <div class="col-lg-8">
-            <h2 class="portfolio-title">This is an example of portfolio detail</h2>
+          <div class="col-lg-6">
+            <h2 class="portfolio-title">React Project</h2>
             <div class="owl-carousel portfolio-details-carousel">
-              <img src="assets/img/portfolio/portfolio-details-1.jpg" class="img-fluid" alt="">
-              <img src="assets/img/portfolio/portfolio-details-2.jpg" class="img-fluid" alt="">
-              <img src="assets/img/portfolio/portfolio-details-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/react.png" class="img-fluid" alt="">
             </div>
           </div>
 
-          <div class="col-lg-4 portfolio-info">
-            <h3>Project information</h3>
+          <div class="col-lg-6 portfolio-info">
+            <h3>React Project</h3>
             <ul>
-              <li><strong>Category</strong>: Web design</li>
-              <li><strong>Client</strong>: ASU Company</li>
-              <li><strong>Project date</strong>: 01 March, 2020</li>
-              <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+              <li><strong>Technologies</strong>: React, React Router ,React Bootstrap ,Javascript, JSX, CSS</li>
+              <li><strong>Project date</strong>: March 25, 2021</li>
+              <li><strong>Project URL</strong>: <a href="https://react.chadtroyer.dev">react.chadtroyer.dev</a></li>
+              <li><strong>Git URL</strong>: <a href="https://github.com/cltroyer/reactproject">https://github.com/cltroyer/reactproject</a></li>
             </ul>
 
             <p>
-              Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+              This Project was based on React and used several API calls. There are also different pages using React Router to handle routing. There were several chalanges that came up as I worked to finish the project.
+              <ul>
+                <li>I had an issue that the API call didn't always return the expected outcome causing the mapping of the new storys to fail. To correct this I added a check to see if a headline object was returned and if not it would add an empty sting to keep the object correct.</li>
+                <li>The next issue was that he ESPN API would return API URLs for the headlines in a HTTP format insted of using HTTPS, when loaded would cause the browser to block the request. To fix this in the function i used the replace method to correct the URLS in the object.</li>
+              </ul>
             </p>
           </div>
 
@@ -75,13 +77,6 @@
 
   </main><!-- End #main -->
 
-  <div class="credits">
-    <!-- All the links in the footer should remain intact. -->
-    <!-- You can delete the links only if you purchased the pro version. -->
-    <!-- Licensing information: https://bootstrapmade.com/license/ -->
-    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
-    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-  </div>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
